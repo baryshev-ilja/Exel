@@ -45,7 +45,7 @@ module.exports = {
   },
   plugins: [
     new HTMLWebpackPlugin({
-      template: './src/index.html',
+      template: './src/dashboard.html',
     }),
     new CopyPlugin({
       patterns: [

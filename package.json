@@ -1,7 +1,7 @@
 {
-  "name": "exel",
+  "name": "excel",
   "version": "1.0.0",
-  "description": "Pure Javascript Exel Application",
+  "description": "Pure Javascript Excel Application",
   "browserslist": [
     "> 0.25%",
     "not dead"
@@ -46,5 +46,8 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
