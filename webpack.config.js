@@ -34,8 +34,8 @@ module.exports = {
   resolve: {
     extensions: ['.js', '...'],
     alias: {
-      '@': path.resolve(__dirname, 'src'),
-      '@core': path.resolve(__dirname, 'src/core'),
+      '@': path.resolve(__dirname, 'src/'),
+      '@core': path.resolve(__dirname, 'src/core/'),
     },
   },
   devtool: isProd ? false : 'source-map',
@@ -45,7 +45,7 @@ module.exports = {
   },
   plugins: [
     new HTMLWebpackPlugin({
-      template: './src/dashboard.html',
+      template: './src/index.html',
     }),
     new CopyPlugin({
       patterns: [
