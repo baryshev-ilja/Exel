@@ -1,6 +1,6 @@
-import ExcelComponent from '../../core/excel-component';
+import ExcelComponentAbstract from '../../core/excel-component-abstract';
 
-export default class HeaderComponent extends ExcelComponent {
+export default class HeaderComponent extends ExcelComponentAbstract {
   static className = 'excel__header';
 
   toHTML() {

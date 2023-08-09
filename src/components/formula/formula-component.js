@@ -1,6 +1,6 @@
-import ExcelComponent from '../../core/excel-component';
+import ExcelComponentAbstract from '../../core/excel-component-abstract';
 
-export default class FormulaComponent extends ExcelComponent {
+export default class FormulaComponent extends ExcelComponentAbstract {
   static className = 'excel__formula';
 
   constructor($root) {
