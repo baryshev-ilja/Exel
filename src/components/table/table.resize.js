@@ -1,4 +1,4 @@
-import { $ } from '../../core/dom-framework';
+import {$} from '../../core/dom-framework';
 
 function resizeHandler(rootElement, event) {
   const $resizer = $(event.target);
@@ -37,8 +37,8 @@ function resizeHandler(rootElement, event) {
         width: `${value}px`,
       });
       rootElement
-        .findAll(`[data-col="${$parent.data.col}"]`)
-        .forEach((element) => (element.style.width = `${value}px`));
+          .findAll(`[data-col="${$parent.data.col}"]`)
+          .forEach((element) => (element.style.width = `${value}px`));
     } else {
       $parent.css({
         height: `${value}px`,
@@ -54,4 +54,4 @@ function resizeHandler(rootElement, event) {
   };
 }
 
-export { resizeHandler };
+export {resizeHandler};
